@@ -11,7 +11,7 @@ while cont <= QTDALUNOS:
     nota2 = float(input(f"Digite a nota 02 do aluno: "))
     nota3 = float(input(f"Digite a nota 03 do aluno: "))
     # Calcula a média das notas do aluno
-    media = (nota1 + nota2 + nota3) / 2
+    media = (nota1 + nota2 + nota3) / 3
 
     # Exibe a média do aluno e se está aprovado ou reprovado
     print(f"A média do aluno nº {cont} {aluno} é: {media:.2f}")
