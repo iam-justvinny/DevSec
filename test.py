@@ -1,1 +1,1 @@
-dev sec
+dev seo
