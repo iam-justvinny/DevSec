@@ -1,1 +1,2 @@
-Teste.py
+idade = input("Quantos anos você tem? ")
+print
