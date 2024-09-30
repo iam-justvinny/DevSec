@@ -17,3 +17,8 @@ elif imc >= 25.0 <= 29.9:
 elif imc >= 30.0 <= 34.9:
     print(f'{nome}, seu imc é: {imc}, você está com obesidade nível 1.')
 
+elif imc >= 35.0 <= 39.9:
+    print(f'{nome}, seu imc é: {imc}, você está com obesidade nível 2.')
+
+else:
+    print(f'{nome}, seu imc é: {imc}, você está com obesidade nível 2')
