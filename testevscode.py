@@ -1,2 +1,1 @@
-print('teste!!!') 
-input('sera? ')
+print('teste!!!')
