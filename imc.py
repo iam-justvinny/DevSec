@@ -5,3 +5,15 @@ peso = float(input(f'Digite seu peso: '))
 
 imc = altura / peso ** 2
 
+if imc < 18.5:
+    print(f'{nome}, seu imc é: {imc}, você está abaixo do peeso')
+
+elif imc >= 18.5 <= 24.9:
+    print(f'{nome}, seu imc é:  {imc}, você está no peso normal.')
+
+elif imc >= 25.0 <= 29.9:
+    print(f'{nome}, seu imc é: {imc}, você está acima do peso.')
+
+elif imc >= 30.0 <= 34.9:
+    print(f'{nome}, seu imc é: {imc}, você está com obesidade nível 1.')
+
