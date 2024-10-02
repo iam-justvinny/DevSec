@@ -1,4 +1,4 @@
-print('Olá, seja bem vindo ao cálculo de imc.')
+print('Olá, vamos calcular seu ídice de massa corporal(IMC)?.')
 nome = input('Digite seu nome: ')
 altura = float(input(f'Certo {nome}, agora digite sua altura: '))
 peso = float(input(f'Digite seu peso: '))
