@@ -17,6 +17,5 @@ if altura >= 1.73:
 else:
     print('você está na média!')                   
 
-h
 
 
