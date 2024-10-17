@@ -22,4 +22,3 @@ for i in range(linhas):
     matriz.append(linha)
 for linha in matriz:
     print(linha)
-    print('oi')
