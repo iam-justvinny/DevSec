@@ -1,5 +1,8 @@
+from turtle import pd
 import pdfplumber
 import pandas as ad
+
+from DevSec.Leandro.Aula.teste.teste1 import extrair_informacoes_pdf
 
 def extrair_informações_pdf (caminho_pdf):
     with pdfplumber.open(caminho_pdf) as pdf:
