@@ -106,7 +106,7 @@ def conta_vogais(texto):
 texto = input('Digite a frase: ')
 
 resultado = conta_vogais(texto)
-print(f"O número de vogais na string '{texto}' é: {resultado}")
+print(f"O número de vogais na frase '{texto}' é: {resultado}")
 '''
 
 #---------------------------------------------
@@ -119,10 +119,10 @@ def elementos_comuns(lista1, lista2):
     
     comuns = list(set(lista1) & set(lista2))
     
-    return comuns
-
+    return comuns        
+    
 lista1 = input('Digite os números da primeira lista, separados por espaço: ')
 lista2 = input('Digite os números da segunda lista, separados por espaço: ')
-
+  
 resultado = elementos_comuns(lista1, lista2)
 print('Elementos comuns: ', resultado)
