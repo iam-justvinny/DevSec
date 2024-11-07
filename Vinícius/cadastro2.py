@@ -2,8 +2,10 @@ print('-' * 100)
 print('Olá! Seja bem-vindo(a) ao cadastro de currículo.')
 print('-' * 100)
 
+print('Digite seu nome\n')
+nome = input('nome: ')
 # Captura do número de usuários que serão cadastrados
-n = int(input("Quantos usuários deseja cadastrar? "))
+n = int(input(f"{nome} Quantos usuários deseja cadastrar? "))
 
 # Criação da matriz vazia
 matriz = []
@@ -65,3 +67,5 @@ for i in range(n):
     print(f"{'Estado Civil:':<15} {matriz[i][5]}")
     print(f"{'Resumo:':<15} {matriz[i][6]}")
 print("=" * 100)
+
+print(f'Parabens!{nome} você terminou seu trabalho, muito bem!')
