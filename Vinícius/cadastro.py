@@ -25,6 +25,7 @@ print("acabou")
 =======
 print('Olá! Seja bem vindo(a) ao cadastro de currículo.')
 print('-' * 100)
+
 # Captura do número de usuários que serão cadastrados
 n = int(input("Quantos usuários deseja cadastrar? "))
 
