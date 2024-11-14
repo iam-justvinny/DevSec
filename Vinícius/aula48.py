@@ -11,4 +11,4 @@ string = 'ABCDE'  # 5 caracteres (len)
 # print(bool([])) # false
 # print(lista, type(lista))
 lista = [123, True, 'vinicus', 1.3, []]  # ''
-print(lista[2], type(lista[2])) 
+print(lista[2], type(lista[2])) .
