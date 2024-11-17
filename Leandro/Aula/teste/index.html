@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Exemplo de Integração</title>
+</head>
+<body>
+    <h1>Enviar Dados para Python</h1>
+    <input type="number" id="numero" placeholder="Digite um número">
+    <button onclick="calcular()">Calcular</button>
+    <p id="resultado"></p>
+
+    <script>
+        function calcular() {
+            const numero = document.getElementById("numero").value;
+            
+            fetch('/calcular', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ numero: Number(numero) })
+            })
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById("resultado").innerText = "Resultado: " + data.resultado;
+            });
+        }
+    </script>
+</body>
+</html>
