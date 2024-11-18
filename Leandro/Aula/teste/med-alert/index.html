@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Med Alert MVP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Cadastro de Usuário -->
+    <section id="user-registration">
+        <h2>Cadastro de Usuário</h2>
+        <form id="registrationForm">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" required>
+
+            <label for="age">Idade:</label>
+            <input type="number" id="age" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" required>
+
+            <button type="button" onclick="registerUser()">Cadastrar</button>
+        </form>
+    </section>
+
+    <!-- Calendário de Lembretes -->
+    <section id="medication-reminders">
+        <h2>Lembretes de Medicação</h2>
+        <form id="reminderForm">
+            <label for="medication">Nome do Medicamento:</label>
+            <input type="text" id="medication" required>
+
+            <label for="time">Horário:</label>
+            <input type="time" id="time" required>
+
+            <button type="button" onclick="addReminder()">Adicionar Lembrete</button>
+        </form>
+
+        <div id="remindersList"></div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
